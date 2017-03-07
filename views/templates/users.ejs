@@ -1,0 +1,15 @@
+<p><%= title %></p>
+
+
+<ul>
+    <% users.forEach(function(user){ %>
+        <li><%= user.username %></li>
+
+        <ul>
+            <% user.Tasks.forEach(function(task){ %>
+                <li><%= task.title %></li>
+            <% }) %>
+        </ul>
+
+    <% }) %>
+</ul>
