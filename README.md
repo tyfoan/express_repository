@@ -1,4 +1,4 @@
--- Flow running project
+-- Flow running with Dockerfile
 
 1. Build the docker images from Dockerfile
 	
