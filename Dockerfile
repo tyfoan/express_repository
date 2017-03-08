@@ -1,12 +1,12 @@
 FROM node:latest
 
 RUN mkdir -p /app
+RUN mkdir -p /app/db
 WORKDIR /app
 
-COPY package.json /app
+COPY . /app
 RUN npm install
 
-COPY . /app
+EXPOSE 3001
 
-EXPOSE 8090
 CMD [ "node", "bin/www" ]

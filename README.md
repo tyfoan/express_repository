@@ -2,7 +2,7 @@
 
 1. Build the docker images from Dockerfile
 	
-	$ docker build -t <your username>/node-web-app .
+	$ docker build -t megan .
 
 2. If you use windows you should share drive
 	
